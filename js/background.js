@@ -9,7 +9,7 @@ function lock(info, tab) {
     });
 }
 
-var context = "page";
+var context = "all";
 var title = "Lock tab";
 var id = chrome.contextMenus.create({
     "title": title,
